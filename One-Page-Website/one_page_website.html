@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Galore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #87CEEB; /* Sky blue background for the entire page */
+        }
+        header {
+            background-color: #007BFF; /* Header color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd; /* Optional border for visual separation */
+            /* Removed background color to let body background show through */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF; /* Footer color */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .small-image {
+            width: 50%; /* Adjust size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Cars Galore</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#video">Videos</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Cars Galore is your one-stop destination for car enthusiasts! Explore our gallery of stunning cars, watch exciting car videos, and feel free to reach out to us.</p>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://assets.rebelmouse.io/media-library/2024-mg-cyberster.jpg?id=33501777&width=1200&height=800&quality=90&coordinates=150%2C0%2C150%2C0" alt="Red Sports Car" class="small-image">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.SFy7ogc1N4a5c8oaWNELDgAAAA&pid=Api&P=0&h=180" alt="Black SUV">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.3iVduLPq3N3s5damHHczwQHaEF&pid=Api&P=0&h=180" alt="White Classic Car">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.DP5IVZN8r2mX_lBA6ZUv2gHaEK&pid=Api&P=0&h=180" alt="Blue Convertible">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section id="video">
+    <h2>Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SI3R54tHork" title="Cars video" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2024 Cars Galore. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
