@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Car Showcase</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron text-center bg-primary text-white">
+        <h1 class="display-4">Welcome to Car Showcase</h1>
+        <p class="lead">Explore the world of cars — from classic models to the latest releases.</p>
+        <a href="#" class="btn btn-light btn-lg">View Collection</a>
+    </div>
+
+    <!-- Featured Cars Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Featured Cars</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.9Uvaied6CY0y5h6lYeKNLQHaE8&pid=Api&P=0&h=180" class="card-img-top" alt="Car 1">
+                    <div class="card-body">
+                        <h5 class="card-title">2024 Tesla Model S</h5>
+                        <p class="card-text">Experience cutting-edge technology and performance with the Tesla Model S, featuring unparalleled electric range and speed.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.VLdQIb5P-RBIgEmmgmWYPQHaE8&pid=Api&P=0&h=180" class="card-img-top" alt="Car 2">
+                    <div class="card-body">
+                        <h5 class="card-title">2024 BMW M3</h5>
+                        <p class="card-text">The BMW M3 delivers thrilling driving dynamics, a powerful engine, and a luxurious interior with state-of-the-art features.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIF.CIaZvy3erB94gp2V8zmMBQ&pid=Api&P=0&h=180" class="card-img-top" alt="Car 3">
+                    <div class="card-body">
+                        <h5 class="card-title">2024 Ford Mustang</h5>
+                        <p class="card-text">The iconic Ford Mustang blends heritage with modern performance, featuring a roaring V8 engine and sharp handling.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Car Showcase. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
